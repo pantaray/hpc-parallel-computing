@@ -11,11 +11,15 @@ Parallel Compupting Demos for the ESI HPC Cluster
 
 The example Jupyter notebooks are intended to be run (and presented) on
 the ESI HPC cluster, while the Python modules provide the computational
-"backbone" for the notebooks. The codes cover two thematic areas:
+backbone for the notebooks. The codes cover two thematic areas:
 
-1. Newton Fractals ()
-2. Functional Connectomics
+1. Newton Fractals (`fractal-demo.ipynb`, `fractal-parallel.ipynb`, `newton_tools.py`)
+2. Functional Connectomics (`neuro-demo.ipynb`, `neuro-parallel.ipynb`, `nilearn_tools.py`)
 
-## Use
+Both topics are independent of each other and can be analyzed/presented
+independently.
 
-First demo, then parallel.
+## Usage
+
+Pick a topic and start with the `*-demo.ipynb` notebook. Then discuss the
+`*-parallel.ipynb` case.
